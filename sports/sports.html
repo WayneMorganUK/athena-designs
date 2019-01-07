@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Football Streams </title>
+  <script src='/athena-designs/clippr.min.js'></script>
+  <link rel="stylesheet" type="text/css" href='/athena-designs/main.css'>
+  <style>
+    .row {
+    display: flex;
+    justify-content: space-between;
+    }  
+    .column {
+    padding: 5px;
+    }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script> 
+    <script> 
+    $(function(){
+    $("#includedContent").load('/athena-designs/header.html'); 
+    });
+  </script> 
+</head>
+<body>
+<header id="includedContent"></header>
+
+  <div class='row'>
+    <div class='column' id="player1"></div>
+    <div class='column' id="player2"></div>
+    <div class='column' id="player3"></div>
+  </div>
+
+  <div class='row'>
+    <div class='column' id="player4"></div>
+    <div class='column' id="player5"></div>
+    <div class='column' id="player6"></div>
+  </div>
+
+
+  <script>
+  var player = new Clappr.Player({source: "https://dontstealmotherfuckerhehe.azureedge.net/dd68190e-b845-439d-b24f-b6bc0bfa4184/97deddfc-3881-4b29-b6ca-072d3332c5cd.ism/manifest(video,format=m3u8-aapl-v3,audiotrack=audio).m3u8", parentId: "#player1"});
+  var player = new Clappr.Player({source: "http://cff765a9274847338036be4b50796bb8.azureedge.net/904056c5-eeb4-4296-a95c-714a0da1091c/e9f7ae53-0970-49c9-8824-2104239c8ea9.ism/manifest(video,format=m3u8-aapl-v3,audiotrack=audio).m3u8", parentId: "#player2"});
+  var player = new Clappr.Player({source: "http://1bc1124a5b5a4f5182b0a3118a4301ca.azureedge.net/46234485-d5b6-402a-859d-714ac0ed70ef/4cf4cadb-2fcd-4465-8533-8d9c42fc3e69.ism/manifest(video,format=m3u8-aapl-v3,audiotrack=audio).m3u8", parentId: "#player3"});
+  var player = new Clappr.Player({source: "http://1bc1124a5b5a4f5182b0a3118a4301ca.azureedge.net/46234485-d5b6-402a-859d-714ac0ed70ef/4cf4cadb-2fcd-4465-8533-8d9c42fc3e69.ism/manifest(video,format=m3u8-aapl-v3,audiotrack=audio).m3u8", parentId: "#player4"});
+  var player = new Clappr.Player({source: "http://35a8dd422a5649b296427bd9f0369919.azureedge.net/fcbe4ebc-fe3c-4b58-af78-a74a4e01b629/bb506295-38ab-4b38-8a6e-c6abfbe74a73.ism/manifest(video,format=m3u8-aapl-v3,audiotrack=audio).m3u8", parentId: "#player5"});
+  var player = new Clappr.Player({source: "http://35a8dd422a5649b296427bd9f0369919.azureedge.net/fcbe4ebc-fe3c-4b58-af78-a74a4e01b629/bb506295-38ab-4b38-8a6e-c6abfbe74a73.ism/manifest(video,format=m3u8-aapl-v3,audiotrack=audio).m3u8", parentId: "#player6"});
+  </script>
+  </body>
+
+</html>

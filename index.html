@@ -4,15 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href='/athena-designs/main.css'>
   <title>Athena</title>
+
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("header.html"); 
+    });
+    </script> 
 </head>
 <body>
-  <header>
-    <h1>Athena Designs</h1>
-  </header>
+  <header id="includedContent"></header>
 
-  <h2> This is my first website</h2>
-  <footer></footer>
+  <section>
+    <div>Home</div>
+    <div>Calculator</div>
+    <div>Sports</div>
+  </section>
+
+  <footer>Footer Section</footer>
 </body>
 </html>
