@@ -29,7 +29,6 @@ section {
   margin: 0px auto;
   background: white;
   color: grey;
-  display: flex;
   flex-direction: row;
 }
 
