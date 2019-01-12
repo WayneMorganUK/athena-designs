@@ -6,12 +6,28 @@
   <script src='../clippr.min.js'></script>
   <link rel="stylesheet" type="text/css" href='../main.css'>
   <style>
+    div[data-player] .core-extra-interface {
+      z-index: 1000;
+      position: absolute;
+      bottom: 75px;
+      background-color: blue;
+      width: 100%;
+      height: 20%;
+    }
+    body, section{
+      background-color: #121111;
+      color: white;
+    }
     .row {
     display: flex;
     justify-content: space-between;
+    padding-top: 25px;
+    font-weight: bold;
+    font-size:21px;
     }  
     .column {
     padding: 5px;
+    color:white;
     }
   </style>
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -43,15 +59,15 @@
       </header>
 <section>
   <div class='row'>
-    <div class='column' id="player1"></div>
-    <div class='column' id="player2"></div>
-    <div class='column' id="player3"></div>
+    <div class='column' id="player1">Brighton v Liverpool</div>
+    <div class='column' id="player2">TBC</div>
+    <div class='column' id="player3">TBC</div>
   </div>
 
   <div class='row'>
-    <div class='column' id="player4"></div>
-    <div class='column' id="player5"></div>
-    <div class='column' id="player6"></div>
+    <div class='column' id="player4">TBC</div>
+    <div class='column' id="player5">TBC</div>
+    <div class='column' id="player6">TBC</div>
   </div>
 </section>
 
