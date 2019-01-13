@@ -1,15 +1,14 @@
 body {
-  font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
-  background-color:  white;
+  font: 300 20px/1.5 Lato, "Helvetica Neue", Helvetica, arial, sans-serif;
+  font-weight: bold;
+  background-color:  rgb(226, 226, 226);
   color: black;
   margin: auto;
 }  
 header{
-  text-align: left;
-  margin: 0px auto;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  background-color: #ffd230;
+  padding: 5px 0 5px 0;
+  background-image: linear-gradient(#2de2ff, #fa31ff);
+
 }
 .header-div {
   width: 1200px;
@@ -19,16 +18,13 @@ header{
 }
 
 nav {
-  background-color: #ffd230;
-  padding: 2px 0 2px 0;
+  padding-top: 2px;
   border-bottom: 1px solid rgba(18, 18, 18, 0.8)
 }
 
 section {
   width: 1200px;
   margin: 0px auto;
-  background: white;
-  color: grey;
   flex-direction: row;
 }
 
@@ -41,21 +37,15 @@ footer {
 }
 
 a {
-  border-right: 1px solid rgba(18, 18, 18, 0.8);
   padding: 0 8px 0 8px;
   font-size: 20px;
   text-decoration: none;
   text-transform: uppercase;
   color: inherit;
 }
- a.hover {
-   color:inherit;
- }
-
 
 div {
   color:black;
-
 }
 
 ul{
@@ -67,16 +57,16 @@ ul{
 li {
   display: inline-block;
   color:black;
+  border-right:1px solid rgba(18, 18, 18, 0.8);
+  border-bottom: solid transparent 4px;
 }
 
 li:hover {
-  background-color: black;
-  color: white;
+  border-bottom: 4px black solid 
 }
 
 h1 {
   font-size: 30px;
-  color: black;
   text-transform: uppercase;
   padding: 2px 20px 2px 20px;
   margin: 0;
@@ -84,37 +74,17 @@ h1 {
 
 #main-header {
   display: flex;
-  margin-top: 5px;
+  padding-top: 5px;
 }
 
-/* Fix the player container to take up 100% width and to calculate its height based on its children. 
-[data-player] {
-  position: relative;
-  width: 320px;
-  height: 50%;
-  margin: 0;    
+.row {
+display: flex;
+justify-content: space-between;
+padding-top: 25px;
+font-weight: bold;
+font-size:21px;
+line-height:2em;
+}  
+.column {
+padding: 5px;
 }
-
- Fix the video container to take up 100% width and to calculate its height based on its children. 
-[data-player] .container[data-container] {
-  width: 50%;
-  height: 50%;
-  position: relative;
-}
-
-/* Fix the media-control element to take up the entire size of the player. 
-[data-player] .media-control[data-media-control] {
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-/* Fix the video element to take up 100% width and to calculate its height based on its natural aspect ratio. 
-[data-player] video {
-  position: relative;
-  display: block;
-  width: 50%;
-  height: 50%;
-}
-*/

@@ -5,24 +5,8 @@
   <title>Football Streams </title>
   <script src='../clippr.min.js'></script>
   <link rel="stylesheet" type="text/css" href='../main.css'>
-  <style>
-    body, section{
-      background-color: #898989;
-      color: white;
-    }
-    .row {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 25px;
-    font-weight: bold;
-    font-size:21px;
-    line-height:2em;
-    }  
-    .column {
-    padding: 5px;
-    color:white;
-    }
-  </style>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Source+Code+Pro:300,400,500" rel="stylesheet">
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132145866-1"></script>
 <script>
@@ -39,9 +23,9 @@
         <div class="header-div">
         <nav>
           <ul>
-            <li><a href='../index.html'>Home</a></li>
-            <li><a href='/sports/sports.html'>Sports</a></li>
-            <li><a href='/calculator/calculator.html'>Calculator</a></li>
+            <li><a href='../index.html'>Home</a>
+            <li><a href='/sports/sports.html'>Sports</a>
+            <li><a href='/calculator/calculator.html'>Calculator</a>
           </ul>
         </nav>
         <div id='main-header'>
@@ -66,7 +50,7 @@
 
   <script>
   var player = new Clappr.Player({source: "https://1aebc7a22bf54c61adf0993159b8a1d6.azureedge.net/b8a3d260-e880-42b8-96d9-7152a92674dc/d8d69bfd-1b0c-4f1a-8497-4008e51b5a34.ism/manifest(video,format=m3u8-aapl-v3,audiotrack=audio).m3u8", parentId: "#player1"});
-  var player = new Clappr.Player({source: "https://livegpscdnn.azureedge.net/f4b1b2f7-05a3-4dee-badd-4bbc79a20dde/f931d803-353c-4f66-97d8-549b4c850416.ism/manifest(video,format=m3u8-aapl-v3,audiotrack=audio).m3u8", parentId: "#player2"});
+  var player = new Clappr.Player({source: "aHR0cDovL2R2aXZlb3JiLmF6dXJlZWRnZS5uZXQvYy9wbGF5bGlzdC5tM3U4", parentId: "#player2"});
   var player = new Clappr.Player({source: "http://live.mypeercast.com/hls/1UuQChKSGPUn/index.m3u8?st=9MMHGQoA1M2sDU0yrD-L7Q&e=1547414817", parentId: "#player3"});
   var player = new Clappr.Player({source: "https://wowzaprod100-i.akamaihd.net/hls/live/254623/3e205149_1_1/chunklist.m3u8", parentId: "#player4"});
   var player = new Clappr.Player({source: "http://1dh.azureedge.net/live.m3u8", parentId: "#player5"});

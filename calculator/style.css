@@ -18,7 +18,7 @@
     grid-template-areas:
     'a a a a'
     'b b c c';
-    margin: 0 auto;
+    margin: 15px auto;
     width: 400px;
     border-radius: 15px;
     border-color: #C8C9E7;

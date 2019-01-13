@@ -5,10 +5,24 @@
     <link rel="stylesheet" type="text/css" href="../main.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Calculus">
-
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Source+Code+Pro:300,400,500" rel="stylesheet">
     <title>Calculator</title>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132145866-1"></script>
+<style>
+    div.sticky {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #060413;
+        color: white;
+        text-align: center;
+        height: 150px;
+        width: 80px;
+        right: 50px;
+        border-radius: 15px 15px 0 0;
+    }
+</style>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -23,9 +37,9 @@
         <div class="header-div">
             <nav>
                 <ul>
-                    <li><a href='../index.html'>Home</a></li>
-                    <li><a href='/sports/sports.html'>Sports</a></li>
-                    <li><a href='/calculator/calculator.html'>Calculator</a></li>
+                    <li><a href='../index.html'>Home</a>
+                    <li><a href='/sports/sports.html'>Sports</a>
+                    <li><a href='/calculator/calculator.html'>Calculator</a>
                 </ul>
             </nav>
             <div id='main-header'>
@@ -55,6 +69,7 @@
         <button id='equals' class = 'operatorBtn'>=</button>
         <button id='divided' class = 'operatorBtn'>÷</button>
     </div>
+    <div class='sticky'>Hello</div>
     <script src="script.js"></script>
 </body>
 </html>
