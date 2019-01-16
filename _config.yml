@@ -4,7 +4,7 @@
 # Site settings
 title: Athena Designs
 description: Athena Designs, Calculator, Sports Feed, Website Designs, Codeword builder
-baseurl: "http://www.athena-designs.com"
+baseurl: ""
 url: "http://www.athena-designs.com" # the base hostname & protocol for your site
 
 
