@@ -1,6 +1,19 @@
 @font-face {
   font-family: 'MyWebFont';
-  src: url(fonts/digital-7.ttf)  format('truetype')
+  src: url(../fonts/digital-7\ \(mono\).ttf)  format('truetype')
+}
+
+div.sticky {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #060413;
+    color: white;
+    text-align: center;
+    height: 150px;
+    width: 80px;
+    right: 50px;
+    border-radius: 15px 15px 0 0;
 }
 
 

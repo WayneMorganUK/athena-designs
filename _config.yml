@@ -1,0 +1,17 @@
+# Welcome to Jekyll!
+
+
+# Site settings
+title: Athena Designs
+email: your-email@domain.com
+description: My new wesbite
+baseurl: ""
+url: "http://www.athena-designs.com" # the base hostname & protocol for your site
+
+
+# Build settings
+markdown: kramdown
+
+theme:
+plugins:
+  - jekyll-sitemap
