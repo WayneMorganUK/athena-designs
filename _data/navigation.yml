@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: Sports
+  link: /sports/sports.html
+- name: Calculator
+  link: /calculator/calculator.html
+- name: Codeword
+  link: /codeword/codeword.html

@@ -1,13 +1,13 @@
 <header class="site-header">
 
   <div class="header-div">
-    <nav>
-      <ul>
-        <li><a href='../index.html'>Home</a>
-        <li><a href='/sports/sports.html'>Sports</a>
-        <li><a href='/calculator/calculator.html'>Calculator</a>
-      </ul>
-    </nav>
+      <nav>
+          <ul>
+            {% for item in site.data.navigation %}
+              <li><a href="{{ item.link }}">{{ item.name }}</a>
+            {% endfor %}
+          </ul>
+        </nav> 
     <div id='main-header'>
       <h1>Athena Designs</h1>
     </div>

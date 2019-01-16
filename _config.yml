@@ -3,8 +3,7 @@
 
 # Site settings
 title: Athena Designs
-email: your-email@domain.com
-description: My new wesbite
+description: Athena Designs, Calculator, Sports Feed, Website Designs, Codeword builder
 baseurl: ""
 url: "http://www.athena-designs.com" # the base hostname & protocol for your site
 
@@ -15,3 +14,4 @@ markdown: kramdown
 theme:
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
