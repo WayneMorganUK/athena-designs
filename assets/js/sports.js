@@ -1,9 +1,7 @@
 var sourceUrl = [
-  "https://brexitmatthew.azureedge.net/370bb267-1cbd-4834-be54-89f7008c5ca5/26f50ee5-dc9b-4cbf-a1c9-d7e7eff33eb8.ism/manifest(video,format=m3u8-aapl-v3,audiotrack=audio).m3u8",
+  "https://barrystantonofficial.azureedge.net/0f2453cc-8aa9-4a2d-87f8-3e1cb4ea7b0f/9d699859-0eef-4999-aa4b-8e30c79abf3c.ism/manifest(video,format=m3u8-aapl-v3,audiotrack=audio).m3u8",
 
-  "https://fmodeds.azureedge.net/7f056f42-e22c-496f-9bf2-8608dbc64079/309a1b54-259d-4cdd-bd08-e74c58ab60ab.ism/manifest(video,format=m3u8-aapl-v3,audiotrack=audio).m3u8",
-
-  "https://video-weaver.m3u8",
+  "https://barrystantonofficial.azureedge.net/5307bef2-3e9b-4655-8887-7648107b86ef/b6e0a94c-d1c1-4653-8507-ca578a140754.ism/manifest(video,format=m3u8-aapl-v3,audiotrack=audio).m3u8",
 
   "http://dubsavm.azureedge.net/live/cnbc/chunks.m3u8",
 
