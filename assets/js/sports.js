@@ -3,7 +3,7 @@ var sourceUrl = [
 
   "https://fricmoddedsstrim.azureedge.net/e88d119a-84e3-4885-ac99-482fbefac399/7e2f2ab3-cff6-4309-8100-ad86909c50b0.ism/manifest(video,format=m3u8-aapl-v3,audiotrack=audio).m3u8",
 
-  "https://fricmoddedsstrim.azureedge.net/e88d119a-84e3-4885-ac99-482fbefac399/7e2f2ab3-cff6-4309-8100-ad86909c50b0.ism/manifest(video,format=m3u8-aapl-v3,audiotrack=audio).m3u8",
+  "http://sidovlerovle.azureedge.net/l/playlist.m3u8",
 
   "https://barrystantonofficial.azureedge.net/5307bef2-3e9b-4655-8887-7648107b86ef/b6e0a94c-d1c1-4653-8507-ca578a140754.ism/manifest(video,format=m3u8-aapl-v3,audiotrack=audio).m3u8",
 
