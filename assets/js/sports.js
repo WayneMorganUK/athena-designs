@@ -4,13 +4,22 @@ var sourceUrl = [
 
   "https://fricmoddedsstrim.azureedge.net/e88d119a-84e3-4885-ac99-482fbefac399/7e2f2ab3-cff6-4309-8100-ad86909c50b0.ism/manifest(video,format=m3u8-aapl-v3,audiotrack=audio).m3u8",
 
-  
+  "https://fricmoddedsstrim.azureedge.net/e88d119a-84e3-4885-ac99-482fbefac399/7e2f2ab3-cff6-4309-8100-ad86909c50b0.ism/manifest(video,format=m3u8-aapl-v3,audiotrack=audio).m3u8",
+
   "https://barrystantonofficial.azureedge.net/5307bef2-3e9b-4655-8887-7648107b86ef/b6e0a94c-d1c1-4653-8507-ca578a140754.ism/manifest(video,format=m3u8-aapl-v3,audiotrack=audio).m3u8",
 
   "https://hls305304.r-cdn.com/trn_61810/561/playlist.m3u8?st=mR2XE9TY52uOhnHk364SLQ&e=1547999424",
 
   "http://whostreams.net/87546f8d-fcfd-4ea5-be7e-e672476813d7.ism/manifest(video,format=m3u8-aapl-v3,audiotrack=audio).m3u8"
 ]
+var title = [
+  "Liverpool v Leicester City",
+  "Liverpool v Leicester City",
+  "Liverpool v Leicester City",
+  "Liverpool v Leicester City",
+  "Liverpool v Leicester City",
+  "Liverpool v Leicester City"
+];
 
 var player = []
 for (var i = 0; i < 6; i++) {
@@ -19,5 +28,6 @@ for (var i = 0; i < 6; i++) {
   width: '384px',
   height: '216px',
   parentId: "#player" + (i+1)
-  })
+  });
+  document.getElementById("#player" + (i+1)).textContent = title[i];
 }
