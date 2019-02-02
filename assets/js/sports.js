@@ -1,7 +1,7 @@
 var sourceUrl = [
   "http://450618802882455e9f9f4308fc72335e.azureedge.net/fbd4c9f6-237d-489b-9152-0239058c265c/60cf9cdc-5354-499e-8c67-53212ebea2ac.ism/manifest(video,format=m3u8-aapl-v3,audiotrack=audio).m3u8",
 
-  "https://fricmoddedsstrim.azureedge.net/e88d119a-84e3-4885-ac99-482fbefac399/7e2f2ab3-cff6-4309-8100-ad86909c50b0.ism/manifest(video,format=m3u8-aapl-v3,audiotrack=audio).m3u8",
+  "http://92.241.132.11:1935/live/_definst_/ngrp:bris_all/playlist.m3u8",
 
   "http://sidovlerovle.azureedge.net/l/playlist.m3u8",
 
@@ -13,7 +13,7 @@ var sourceUrl = [
 ]
 var title = [
   "Spurs v Newcastle",
-  "Liverpool v Leicester City",
+  "Bristol v Swans",
   "Liverpool v Leicester City",
   "Bournemouth v Chelsea",
   "tbc",
