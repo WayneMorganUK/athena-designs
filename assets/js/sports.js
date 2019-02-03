@@ -1,7 +1,7 @@
 var sourceUrl = [
-  "http://450618802882455e9f9f4308fc72335e.azureedge.net/fbd4c9f6-237d-489b-9152-0239058c265c/60cf9cdc-5354-499e-8c67-53212ebea2ac.ism/manifest(video,format=m3u8-aapl-v3,audiotrack=audio).m3u8",
+  "http://roedflvoerl.azureedge.net/w/playlist.m3u8",
 
-  "http://92.241.132.11:1935/live/_definst_/ngrp:bris_all/playlist.m3u8",
+  "https://baldystreamer.azureedge.net/83fe2f5a-1b09-4202-b200-56f351a07fb5/92c2a94c-ff11-409e-a439-ca1b12c2bc42.ism/manifest(video,format=m3u8-aapl-v3,audiotrack=audio).m3u8",
 
   "http://sidovlerovle.azureedge.net/l/playlist.m3u8",
 
@@ -12,8 +12,8 @@ var sourceUrl = [
   "http://whostreams.net/87546f8d-fcfd-4ea5-be7e-e672476813d7.ism/manifest(video,format=m3u8-aapl-v3,audiotrack=audio).m3u8"
 ]
 var title = [
-  "Spurs v Newcastle",
-  "Bristol v Swans",
+  "Leicester v Man Utd",
+  "Leicester v Man Utd",
   "Liverpool v Leicester City",
   "Bournemouth v Chelsea",
   "tbc",
