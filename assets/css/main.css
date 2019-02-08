@@ -95,10 +95,18 @@ padding: 20px;
 height: 300px;
 }
 .image{
+  filter: gray;
+  -webkit-filter: grayscale(0);
+  -webkit-transition: all .8s ease-in-out;
+  transition: all .8s ease-in-out;  
   float:right;
   padding-left:15px;
   height:300px;
 }
+.image:hover {
+  filter: none;
+    -webkit-filter: grayscale(1);
+  }
 .title{
   margin: 5px 0;
 }
