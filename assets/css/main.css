@@ -4,7 +4,8 @@ body {
   background-color: #2de2ff;
   color: black;
   margin: auto;
-}  
+}
+
 header{
   padding: 5px 0 5px 0;
   background-image: linear-gradient(rgb(2, 55, 255),#2de2ff);
@@ -44,9 +45,6 @@ a {
   color: inherit;
 }
 
-div {
-  color:black;
-}
 
 ul{
   padding: 0;
@@ -75,6 +73,7 @@ h1 {
 #main-header {
   display: flex;
   padding-top: 5px;
+  color: black;
 }
 
 .row {
@@ -88,6 +87,22 @@ line-height:2em;
 .column {
 padding: 5px;
 }
+.movie{
+  display: block;
+border: black 5px solid;
+border-radius: 25px;
+padding: 20px;
+height: 300px;
+}
+.image{
+  float:right;
+  padding-left:15px;
+  height:300px;
+}
+.title{
+  margin: 5px 0;
+}
+
 /* #menu-icon {
 
 	display: hidden;
