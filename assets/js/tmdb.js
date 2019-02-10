@@ -14,6 +14,7 @@ const APIKEY = '61e588d14c9ac42a437e560cc3d65659';
 let baseURL = 'https://api.themoviedb.org/3/';
 let configData = null;
 let baseImageURL = null;
+let posterImage = null;
        
 let getConfig = function () {
   let url = "".concat(baseURL, 'configuration?api_key=', APIKEY); 
@@ -39,12 +40,24 @@ let runSearch = function (keyword) {
     .then(result=>result.json())
     .then((data)=>{
       //process the returned data
-      for (var i = 0;i<data.results.length;i++){
+      for (var i = 0;i<data.total_results;i++){
+        if ((data.results[i].poster_path) ===  null) {
+          posterImage = "/assets/images/tmdb.svg width=215px" ;
+        } else {
+          posterImage = 'http://image.tmdb.org/t/p/w300' + (data.results[i].poster_path)
+        }
       document.getElementById('movie-data').innerHTML += 
-      "<hr><div class='movie' style='display: block'><img class='image' src='http://image.tmdb.org/t/p/w300" + (data.results[i].poster_path) + "'><h2 class='title'>"+ (data.results[i].title) + "</h2><article class='description'>"+ (data.results[i].overview)+"</article></div>"
+      "<div class='movie' style='display: block'>" +
+        "<img class='image' src=" + posterImage + ">" +
+        "<h2 class='title'>"+ (data.results[i].title) + "</h2>" +
+        "<article class='description'>"+ (data.results[i].overview)+"</article>" + 
+      "</div>";
       //work with results array...
+      
       }
+      document.getElementById('movie-data').innerHTML += "<pre>" + JSON.stringify(data, null, '\t') + "<pre>";
     })
+    
 }
 
 
