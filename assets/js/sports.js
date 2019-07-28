@@ -1,5 +1,5 @@
 var sourceUrl = [
-  "http://foxsports01-i.akamaihd.net/hls/live/619465/fs_sea/index.m3u8",
+  "https://ul.cdn946.net:8443/hls/ah1n0m8srsdrmh.m3u8",
   
   "https://baldystreamer.azureedge.net/83fe2f5a-1b09-4202-b200-56f351a07fb5/92c2a94c-ff11-409e-a439-ca1b12c2bc42.ism/manifest(video,format=m3u8-aapl-v3,audiotrack=audio).m3u8",
 
