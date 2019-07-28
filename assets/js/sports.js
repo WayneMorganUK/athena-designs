@@ -12,7 +12,7 @@ var sourceUrl = [
   "http://whostreams.net/87546f8d-fcfd-4ea5-be7e-e672476813d7.ism/manifest(video,format=m3u8-aapl-v3,audiotrack=audio).m3u8"
 ]
 var title = [
-  "Spurs v Dortmund",
+  "F1",
   "Leicester v Man Utd",
   "Ajax v Real Madrid",
   "Bournemouth v Chelsea",
