@@ -1,16 +1,16 @@
-/* body, html {
+.scrollbody, html {
   height: 100%;
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
   background: none;
 }
-header {
+.scrollheader {
   background: none;
 }
 a {
   color: black;
-} */
+}
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
@@ -53,13 +53,13 @@ a {
   letter-spacing: 10px;
 }
 
-/* h3 {
+.scrollh3 {
   letter-spacing: 5px;
   text-transform: uppercase;
   font: 20px "Lato", sans-serif;
   color: #111;
 }
- */
+
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
