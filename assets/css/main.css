@@ -1,14 +1,14 @@
 body {
   font: 300 20px/1.5 Lato, "Helvetica Neue", Helvetica, arial, sans-serif;
   font-weight: bold;
-  background-color: #ff2d2d;
+  background-color: #ff0000;
   color: black;
   margin: auto;
 }
 
 header{
   padding: 5px 0 5px 0;
-  background-image: linear-gradient(rgb(255, 02, 25),#ff2d2d);
+  background-image: linear-gradient(rgb(255, 02, 25),#d40000);
 
 }
 .header-div {
