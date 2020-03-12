@@ -1,0 +1,16 @@
+<header class="scrollheader">
+
+  <div class="header-div">
+      <nav>
+          <ul>
+            {% for item in site.data.navigation %}
+              <li><a href="{{ item.link }}">{{ item.name }}</a>
+            {% endfor %}
+          </ul>
+        </nav> 
+    <div id='main-header'>
+      <h1>Athena Designs</h1>
+    </div>
+  </div>
+  
+</header>
