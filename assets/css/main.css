@@ -8,8 +8,7 @@ body {
 
 header{
   padding: 5px 0 5px 0;
-  background-image: linear-gradient(rgb(255, 02, 25),#d40000);
-
+  background-image: linear-gradient(rgb(231, 192, 98),#d40000)
 }
 .header-div {
   width: 1200px;
