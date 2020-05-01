@@ -1,0 +1,117 @@
+$circleCount: 20;
+$spanCount: 10;
+$speed: 25s;
+$background: #000000;
+$circleSize: 30px;
+
+
+@function rem($value) {
+  @return unquote(($value/1px)/16+'rem');
+}
+.container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: $background;
+}
+.loader {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: rem(250px);
+  width: rem(250px);
+  transform-style: preserve-3d;
+  //transform: rotateX(45deg);
+  animation: circleRotate $speed /2 linear infinite;
+  .circle {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    left: 0;
+    right: 0;
+    top: 0px;
+    transform-origin: bottom;
+    margin: auto;
+    transform-style: preserve-3d;
+    border-radius: rem(500px);
+    .wrapper {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      transform-style: preserve-3d;
+      animation: wrapperRotate $speed / 5 linear infinite;
+      span {
+        height: 50%;
+        width: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        //margin: auto;
+        top: 0;
+        transform-origin: bottom;
+        transform-style: preserve-3d;
+        // box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.5);
+        &::before {
+          content: '';
+          position: absolute;
+          height: rem($circleSize);
+          width: rem($circleSize);
+          left: 50%;
+          transform: translateX(-50%) rotateX(90deg);
+          background-color: green;
+          transform-style: preserve-3d;
+          border-radius: rem($circleSize);
+          backface-visibility: hidden;
+          overflow: hidden;
+        }
+      }
+      @for $i from 1 through $spanCount {
+        span:nth-child(#{$i}) {
+          transform: rotate(#{$i * (360 / $spanCount)}deg);
+          &::before {
+            $color: hsl($i * (360 / $spanCount ) * 1deg, 100%, 50%);
+            background-color: $color;
+            /* box-shadow: 0px 0px 52px rgba($color, 0.5),
+              0px 0px 4px rgba($color, 0.5); */
+          }
+        }
+      }
+    }
+  }
+  @for $i from 1 through $circleCount {
+    .circle:nth-child(#{$i}) {
+      transform: rotate(#{$i * (360 / $circleCount)}deg)
+        translateY(-50px)
+        rotateY(90deg);
+    }
+  }
+}
+
+@keyframes wrapperRotate {
+  to {
+    transform: rotate(5turn);
+  }
+}
+
+@keyframes circleRotate {
+  to {
+    transform: rotateX(720deg) rotateY(360deg) rotateZ(360deg);
+  }
+}
