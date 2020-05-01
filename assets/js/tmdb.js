@@ -27,7 +27,7 @@ let getConfig = function () {
       configData = data.images;
       console.log('config:', data);
       console.log('config fetched');
-      runSearch('scarface')
+      runSearch('bourne')
     })
     .catch(function(err){
       alert(err);
