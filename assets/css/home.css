@@ -1,0 +1,164 @@
+/* body {
+  font: 300 20px/1.5 Lato, "Helvetica Neue", Helvetica, arial, sans-serif;
+  font-weight: bold;
+  background-color: #d40000;
+  color: black;
+  margin: auto;
+}
+
+header{
+  padding: 5px 0 5px 0;
+  background-image: linear-gradient(rgb(231, 192, 98),#d40000)
+}
+.header-div {
+  width: 1200px;
+  margin: 0 auto;
+  border-left:1px solid rgba(18, 18, 18, 0.8);
+  border-right:1px solid rgba(18, 18, 18, 0.8)
+}
+
+nav {
+  padding-top: 2px;
+  border-bottom: 1px solid rgba(18, 18, 18, 0.8)
+}
+
+section {
+  width: 1200px;
+  margin: 0px auto;
+  flex-direction: row;
+}
+
+footer {
+  width: 1200px;
+  margin: 0px auto;
+  background: white;
+  color: grey;
+  display: flex;
+}
+
+/* a {
+  padding: 0 8px 0 8px;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: inherit;
+} */
+
+
+/* ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  color:white;
+  border-right:1px solid rgba(18, 18, 18, 0.8);
+  border-bottom: solid transparent 4px;
+}
+
+li:hover {
+  border-bottom: 4px black solid 
+}
+
+h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 2px 20px 2px 20px;
+  margin: 0;
+}
+
+#main-header {
+  display: flex;
+  padding-top: 5px;
+  color: black;
+}
+
+.row {
+display: flex;
+justify-content: space-between;
+padding-top: 25px;
+font-weight: bold;
+font-size:21px;
+line-height:2em;
+}  
+.column {
+padding: 5px;
+}
+.movie{
+  display: block;
+  border: black 5px solid;
+  border-radius: 25px;
+  padding: 20px;
+  min-height: 300px;
+  margin: 10px;
+}
+.image{
+  filter: gray;
+  -webkit-filter: grayscale(0);
+  -webkit-transition: all .8s ease-in-out;
+  transition: all .8s ease-in-out;  
+  float:right;
+  padding-left:15px;
+  height:300px;
+}
+.image:hover {
+  filter: none;
+    -webkit-filter: grayscale(1);
+  }
+.title{
+  margin: 5px 0;
+} */
+
+/* #menu-icon {
+
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: #4C8FEC url(images/menu-icon.png) center;
+
+}
+
+a:hover#menu-icon {
+
+	background-color: #444;
+	border-radius: 4px 4px 0 0;
+
+} */
+
+
+/*MEDIA QUERY*/
+/* @media only screen and (max-width : 640px) {
+
+	header {
+		position: absolute;
+	}
+
+	#menu-icon {
+		display:inline-block;
+	}
+
+	nav ul, nav:active ul { 
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #fff;
+		border: 5px solid #444;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 4px 0 4px 4px;
+	}
+
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+	}
+
+	nav:hover ul {
+		display: block;
+  }
+} */

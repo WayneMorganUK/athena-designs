@@ -1,15 +1,19 @@
 <header class="site-header">
+  <div class="menu-btn">
+    <span class="menu-btn__burger"></span>
+  </div>
 
   <div class="header-div">
-      <nav>
-          <ul>
+      <nav class="nav">
+        <ul class="menu-nav">
             {% for item in site.data.navigation %}
-              <li><a href="{{ item.link }}">{{ item.name }}</a>
+              <li class="menu-nav__item">
+                <a class="menu-nav__link" href="{{ item.link }}">{{ item.name }}</a>
             {% endfor %}
-          </ul>
-        </nav> 
+        </ul>
+      </nav> 
     <div id='main-header'>
-      <h1>Athena Designs</h1>
+      
     </div>
   </div>
   

@@ -1,5 +1,5 @@
 - name: Home
-  link: /
+  link: /home.html
 - name: Sports
   link: /sports/sports.html
 - name: Calculator
@@ -10,3 +10,11 @@
   link: /tmdb/tmdb.html
 - name: Scroll
   link: /layered_scroll/scroll.html
+- name: Keyframes
+  link: /css_animations/keyframes.html
+- name: Landing
+  link: /css_animations/landing.html
+- name: Transitions
+  link: /css_animations/transitions.html
+- name: Pure CSS
+  link: /Pure-CSS-Loader-Animation-master/index.html
