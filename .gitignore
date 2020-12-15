@@ -1,6 +1,2 @@
-_site
-.sass-cache
-.jekyll-metadata
 .gitignore
 .vscode
-.jekyll-cache
