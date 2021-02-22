@@ -7,19 +7,19 @@ const navItems = document.querySelectorAll('.menu-nav__item');
 let showMenu =false;
 menuBtn.addEventListener('click',toggleMenu);
 
-function toggleMenu() {
-  hamburger.classList.toggle('open');
-  nav.classList.toggle('open');
-  menuNav.classList.toggle('open');
-  navItems.forEach(item => item.classList.toggle('open'));
-  showMenu = !showMenu
-  /* if(!showMenu) {
-    showMenu = true;
-  } else {
-    showMenu = false;
-  } */
-}
-/* function toggleMenu() {
+// function toggleMenu() {
+//   hamburger.classList.toggle('open');
+//   nav.classList.toggle('open');
+//   menuNav.classList.toggle('open');
+//   navItems.forEach(item => item.classList.toggle('open'));
+//   showMenu = !showMenu
+//   if(!showMenu) {
+//     showMenu = true;
+//   } else {
+//     showMenu = false;
+//   }
+// }
+ function toggleMenu() {
   if(!showMenu) {
     hamburger.classList.add('open');
     nav.classList.add('open');
@@ -34,5 +34,5 @@ function toggleMenu() {
     navItems.forEach(item => item.classList.remove('open'));
     showMenu = false;
   }
-} */
+} 
 
