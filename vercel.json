@@ -1,5 +1,6 @@
 {
     "cleanUrls": true,
-    "redirects": 
+    "redirects": [
         { "source": "/", "destination": "/home.html" }
+    ]
 }
